@@ -11,7 +11,7 @@ $('#btn-search').on('click', function(e){
     else{
         $('.weather-details').css("display",'block')
         $('#weather').text('Loading...')
-        url = 'http://localhost:3000/getweather?address='+address;
+        url = '/getweather?address='+address;
         $.ajax({
             type: 'GET',
             url: url,
