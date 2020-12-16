@@ -1,5 +1,5 @@
 $(function(){
-    console.log('Client Side Script Is up and running')
+
 
 $('#btn-search').on('click', function(e){
 
