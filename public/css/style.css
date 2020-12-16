@@ -1,0 +1,116 @@
+
+*{
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100hv;
+    background-color: rgb(235, 235, 235);
+  
+}
+
+
+.main h1{
+    text-align: center;
+    background-color: white;
+    padding-top: 8px; padding-bottom: 8px;
+}
+
+/* NAVBAR START*/
+/* ---------------------------------------------- */
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.navbar{
+    list-style: none;
+    
+}
+.header{
+    background-color: white;
+    padding: 0; margin: 0;
+    padding: 20px;
+}
+/* ---------------------------------------------- */
+/* NAVBAR END*/
+
+
+/* FOOTER START*/
+/* ---------------------------------------------- */
+
+.footer{
+    background-color: white;
+    border-top: 1px solid rgb(212, 212, 212);
+    padding: 8px;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------- */
+/* FOOTER END*/
+
+.group input{
+    
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+
+    
+}
+
+.group input[type=text]{
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+
+
+.btn-primary{
+    border: none;
+    background-color: rgb(138, 111, 255);
+    display: block;
+    width: 100%;
+}
+
+.form{
+
+    width: 40%;
+    margin-left: 30%;
+    
+}
+
+.weather-details{
+    background-color: white;
+    width: 40%;
+    margin-left: 30%;
+    border: 1px solid  rgb(212, 212, 212);;
+}
+
+
+
+
+.gap{
+    margin-top: 8px;
+}
+
+.m-b-15px{
+    margin-bottom: 15px;
+}
+
+.b-b{
+    border-bottom: 1px solid rgb(212, 212, 212);;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+

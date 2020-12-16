@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>links}}
+    <script src="/js/app.js"></script>
+    
+    
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <div class="main">
+        <section class="heading">
+            <h1>Welcome to Weather</h1>
+        </section>
+
+        <section class="header b-b m-b-15px b-b txt-center">
+            {{>navbar}}
+        </section>
+
+        <section class="body">
+            <form class="form" enctype="multipart/form-data">
+                <div class="group">
+                    <input type="text" placeholder="Enter Address" id="txt-address">
+                </div>
+
+                <div class="gap"></div>
+
+                <div class="group">
+                    <input type="submit" class="btn-primary" placeholder="Enter Address" value="Search" id="btn-search">
+                </div> 
+            </form>
+        </section>
+        <div class="gap"></div>
+        <section class="weather-details" style="display: none;">
+            <p id="weather">Weather Data</p>
+
+        </section>
+        
+
+        <section class="footer b-b">
+            {{>footer}}
+        </section>
+    </div>
+</body>
+
+</html>
